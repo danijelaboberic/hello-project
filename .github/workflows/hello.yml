@@ -1,1 +1,9 @@
+name: Hello World
+on:
+  push:
 
+jobs:
+  say-hello-inline-bash:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "Hello world, from GitHub Action"
